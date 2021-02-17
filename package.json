@@ -1,6 +1,6 @@
 {
   "name": "react-video-content-youtube",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Optimization YouTube video on page",
   "author": "Octanium91",
   "license": "GPL-3.0",
@@ -25,7 +25,19 @@
     "speed",
     "component",
     "react",
-    "ReactJS"
+    "ReactJS",
+    "video",
+    "image",
+    "svg",
+    "jpg",
+    "webp",
+    "react js",
+    "embed",
+    "youtu.be",
+    "easy",
+    "ez",
+    "youtube.com",
+    "custom"
   ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",

@@ -2,6 +2,10 @@
 
 > Optimization YouTube video on page
 
+## Demo
+[Demo website](https://octanium91.github.io/p/optimization-video/react-demo/)<br />
+Press `Optimized` for loading optimized version, press `No optimized` for loading not optimized version.
+
 [![NPM](https://img.shields.io/npm/v/react-video-content-youtube.svg)](https://www.npmjs.com/package/react-video-content-youtube) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
