@@ -1,16 +1,32 @@
 {
-  "name": "npm_module_react_video_content_youtube",
-  "version": "1.0.0",
+  "name": "react-video-content-youtube",
+  "version": "1.3.5",
   "description": "Optimization YouTube video on page",
   "author": "Octanium91",
   "license": "GPL-3.0",
-  "repository": "Octanium91/npm_module_react_video_content_youtube",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Octanium91/npm_module_react_video_content_youtube.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },
+  "homepage": "https://github.com/Octanium91/npm_module_react_video_content_youtube#readme",
+  "bugs": {
+    "url": "https://github.com/Octanium91/npm_module_react_video_content_youtube/issues"
+  },
+  "keywords": [
+    "youtube",
+    "fast",
+    "optimization",
+    "speed",
+    "component",
+    "react",
+    "ReactJS"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -49,5 +65,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

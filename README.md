@@ -2,12 +2,12 @@
 
 > Optimization YouTube video on page
 
-[![NPM](https://img.shields.io/npm/v/npm_module_react_video_content_youtube.svg)](https://www.npmjs.com/package/npm_module_react_video_content_youtube) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-video-content-youtube.svg)](https://www.npmjs.com/package/react-video-content-youtube) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save npm_module_react_video_content_youtube
+npm install --save react-video-content-youtube
 ```
 
 ## Usage
@@ -15,12 +15,11 @@ npm install --save npm_module_react_video_content_youtube
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'npm_module_react_video_content_youtube'
-import 'npm_module_react_video_content_youtube/dist/index.css'
+import VideoContentYT from 'react-video-content-youtube';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <VideoContentYT src="LXb3EKWsInQ" params={{autoPlay: true}}/>
   }
 }
 ```
