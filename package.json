@@ -1,6 +1,6 @@
 {
   "name": "react-video-content-youtube",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Optimization YouTube video on page",
   "author": "Octanium91",
   "license": "GPL-3.0",
@@ -50,6 +50,9 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
   },
   "peerDependencies": {
     "react": "^16.0.0"
