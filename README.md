@@ -31,3 +31,8 @@ class Example extends Component {
 ## License
 
 GPL-3.0 © [Octanium91](https://github.com/Octanium91)
+
+## Example
+
+[CodeSandbox (1.3.6) link](https://codesandbox.io/s/pedantic-hooks-en0iu?file=/src/index.js)<br />
+[CodeSandbox (1.3.6) zip](https://raw.githubusercontent.com/Octanium91/npm_module_react_video_content_youtube/example/codesandbox_react-video-content-youtube_1.3.6.zip)<br />
